@@ -1,8 +1,5 @@
 //jshint esversion:6
- const dotenv = require('dotenv');
- const dotenvExpand = require('dotenv-expand');
- const myEnv = dotenv.config();
- dotenvExpand.expand(myEnv);
+ const dotenv = require('dotenv').config();
  const express =require("express");
  const bodyParser = require("body-parser");
  const ejs = require("ejs");
